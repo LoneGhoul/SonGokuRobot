@@ -1,2 +1,4 @@
 # SonGokuRobot
-I don't know what is this bot
+Son Goku is An Anime themed advance Telegram group management bot, add it to your group or die.
+
+
