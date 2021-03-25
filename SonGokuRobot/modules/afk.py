@@ -1,10 +1,10 @@
 import random, html
 
-from Cutiepii_Robot import dispatcher
-from Cutiepii_Robot.modules.disable import (DisableAbleCommandHandler,
+from SonGokuRobot import dispatcher
+from SonGokuRobot.modules.disable import (DisableAbleCommandHandler,
                                           DisableAbleMessageHandler)
-from Cutiepii_Robot.modules.sql import afk_sql as sql
-from Cutiepii_Robot.modules.users import get_user_id
+from SonGokuRobot.modules.sql import afk_sql as sql
+from SonGokuRobot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
