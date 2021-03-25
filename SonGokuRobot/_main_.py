@@ -49,7 +49,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
+# Gimme Credits for example - This bot is a fork of https://github.com/ImmaGoku/SonGokuRobot/.. Please 😥
 PM_START_TEXT = """
 Welcome user: {}, , I am the Strongest bot SON GOKU!
 I am an Anime themed group management bot with a lot of Special Features.
