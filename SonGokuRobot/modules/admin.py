@@ -5,16 +5,16 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from Cutiepii_Robot import DRAGONS, dispatcher
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
-from Cutiepii_Robot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
+from SonGokuRobot import DRAGONS, dispatcher
+from SonGokuRobot.modules.disable import DisableAbleCommandHandler
+from SonGokuRobot.modules.helper_funcs.chat_staSonGokuRobottus import (bot_admin, can_pin,
                                                            can_promote,
                                                            connection_status,
                                                            user_admin)
-from Cutiepii_Robot.modules.helper_funcs.extraction import (extract_user,
+from SonGokuRobot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from Cutiepii_Robot.modules.log_channel import loggable
-from Cutiepii_Robot.modules.helper_funcs.alternate import send_message
+from SonGokuRobot.modules.log_channel import loggable
+from SonGokuRobot.modules.helper_funcs.alternate import send_message
 
 
 @run_async
