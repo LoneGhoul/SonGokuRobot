@@ -10,10 +10,10 @@ from urllib.error import URLError, HTTPError
 from bs4 import BeautifulSoup
 import requests
 from typing import List
-from Cutiepii_Robot import dispatcher
+from SonGokuRobot import dispatcher
 from telegram import ParseMode, InputMediaPhoto, Update, TelegramError, ChatAction
 from telegram.ext import CommandHandler, run_async, CallbackContext
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
+from SonGokuRobot.modules.disable import DisableAbleCommandHandler
 
 @run_async
 def covid(update: Update, context: CallbackContext):
